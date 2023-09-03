@@ -30,8 +30,8 @@ const Contact = () => {
       <div className='success__container' style={{ display: successOpen ? 'flex' : 'none' }}>
         <div className="success">
           <GoCheckCircle className='success__option-icon'/>
-          <h1>Sucesso</h1>
-          <p>Mensagem enviada!</p>
+          <h1>Sucess</h1>
+          <p>Message sent!</p>
           <button className='button button-primary' onClick={() => setSuccessOpen(false)}>OK</button>
         </div>
       </div>
@@ -41,7 +41,7 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>melvinshuster47@gmail.com</h5>
+            <h5>melvintivane@gmail.com</h5>
             <a href="mailto:melvinshuster47@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
           </article>
           <article className="contact__option">
