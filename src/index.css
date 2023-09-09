@@ -22,7 +22,7 @@
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
-  --container-width-ms: 90%;
+  --container-width-ms: 80%;
 }
 
 html {
@@ -43,7 +43,7 @@ body {
 
 /*=================================== STYLES GERAIS ===================================*/
 .container {
-  width: var(--container-width-lg);
+  width: 980px;
   margin: 0 auto;
 }
 
@@ -60,7 +60,7 @@ li {
 }
 
 section {
-  margin-top: 8rem;
+  margin-top: 5rem;
   /*height: 100vh;*/
 }
 
@@ -71,7 +71,7 @@ section > h2, section > h5 {
 
 section > h2 {
   color: var(--color-primary);
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .text-light {
@@ -79,6 +79,7 @@ section > h2 {
 }
 
 a {
+  font-size: 0.9rem;
   color: var(--color-primary);
   transition: var(--transition);
 }
@@ -91,7 +92,7 @@ a:hover {
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
-  padding: 0.50rem 1.1rem;
+  padding: 0.40rem 0.8rem;
   border-radius: 0.4rem;
   cursor: pointer;
   border: 1px solid var(--color-primary);
