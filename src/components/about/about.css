@@ -1,8 +1,7 @@
 .about__container {
-  display: flex;
-  align-items: start;
+  display: grid;
   justify-content: space-between;
-  gap: 4rem;
+  grid-template-columns: 35% 55%;
 }
 
 .about__me {
@@ -12,7 +11,7 @@
   background: linear-gradient(
     45deg,
     transparent,
-    var(--color-primary),
+    var(--color-primary-variant),
     transparent
   );
   display: grid;
@@ -64,13 +63,13 @@
 
 .about__card small {
   font-size: 0.7rem;
-  color: var(--color-light);
+  color: var(--color-light-black);
 }
 
 .about__content p {
   font-size: 0.9rem;
   margin: 1rem 0 1.5rem;
-  color: var(--color-light);
+  color: var(--color-light-black);
 }
 
 /*================= MEDIA QUERIES (MEDIUM DEVICES) ==================*/
