@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 import "./experience.css";
-import { BsPatchCheckFill } from 'react-icons/bs'
+import { BsPatchCheckFill } from "react-icons/bs";
 
 const Experience = () => {
   return (
-    <section id='experience'>
+    <section id="experience">
       <h5>What Skills I Have</h5>
       <h2>My Experience</h2>
 
@@ -15,35 +15,35 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>HTML</h4>
+                <h5>HTML</h5>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>CSS</h4>
+                <h5>CSS</h5>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>JavaScript</h4>
+                <h5>JavaScript</h5>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>React</h4>
+                <h5>React</h5>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Styled Components</h4>
+                <h5>Styled Components</h5>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -51,47 +51,47 @@ const Experience = () => {
         </div>
 
         <div className="experience__backend">
-        <h3>Backend Development</h3>
+          <h3>Backend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>NodeJS</h4>
+                <h5>NodeJS</h5>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>MongoDB</h4>
+                <h5>MongoDB</h5>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>PHP</h4>
+                <h5>PHP</h5>
                 <small className="text-light">Basic</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>My SQL</h4>
+                <h5>My SQL</h5>
                 <small className="text-light">Basic</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>JAVA</h4>
+                <h5>JAVA</h5>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Python</h4>
+                <h5>Python</h5>
                 <small className="text-light">Basic</small>
               </div>
             </article>
@@ -99,7 +99,7 @@ const Experience = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;
