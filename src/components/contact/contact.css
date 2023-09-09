@@ -67,7 +67,7 @@
   }
   
   .contact__option h5 {
-    color: var(--color-light)
+    color: var(--color-light-black)
   }
   
   .contact__container > form > button {
@@ -83,7 +83,7 @@
   
   input, textarea {
     width: 100%;
-    color: var(--color-white);
+    color: var(--color-black);
     padding: 1rem;
     border-radius: 0.5rem;
     background: transparent;
