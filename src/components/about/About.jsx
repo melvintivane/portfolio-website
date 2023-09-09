@@ -24,26 +24,23 @@ const About = () => {
               <h5>Experience</h5>
               <small>2+ Years Working</small>
             </article>
-
             <article className='about__card'>
               <FiUsers className='about__icon'/>
               <h5>Clients</h5>
               <small>100+ Worldwide</small>
             </article>
-
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
               <small>20+ Completed</small>
             </article>
           </div>
-
           <p>
-            I'm FullStack Software Developer, I'm 100% commited with my clients. I only accept
-            projects that I'm sure I can complete them.
-            I'm a Software Engeneer student, this my last year. 
+            I am FullStack Software Developer, I am 100% commited with my clients. I only accept
+            projects that I am sure I can complete. 
+            I am passionate about software development, dedicated and eternal
+            student of information technologies.
           </p>
-
           <a href="#contact" className='button button-primary'>Let's Talk</a>
         </div>
       </div>
