@@ -11,10 +11,10 @@ const Nav = () => {
   
   const sectionOffsets = {
     home: 0,
-    about: 639,
-    experience: 1386,
-    services: 1990,
-    contact: 2704,
+    about: 643,
+    experience: 975,
+    services: 1809,
+    contact: 2947,
   };
 
   const handleScroll = () => {
@@ -22,7 +22,6 @@ const Nav = () => {
     for (const section in sectionOffsets) {
       if (scrollPosition >= sectionOffsets[section]) {
         setActiveNav(section);
-        console.log(section)
       }
     }
   };
