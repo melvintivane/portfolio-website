@@ -32,3 +32,10 @@ nav a.active {
   background: var(--color-primary);
   color: var(--color-bg);
 }
+
+/*================== MEDIA QUERIES (SMALL DEVICES) ==================*/
+@media screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
+}
