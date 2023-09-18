@@ -30,7 +30,7 @@ const Contact = () => {
       <div className='success__container' style={{ display: successOpen ? 'flex' : 'none' }}>
         <div className="success">
           <GoCheckCircle className='success__option-icon'/>
-          <h1>Sucess</h1>
+          <h1>Success</h1>
           <p>Message sent!</p>
           <button className='button button-primary' onClick={() => setSuccessOpen(false)}>OK</button>
         </div>
