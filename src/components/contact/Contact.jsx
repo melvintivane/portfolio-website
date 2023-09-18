@@ -18,7 +18,7 @@ const Contact = () => {
       e.target.reset();
       setSuccessOpen(true);
     } catch (error) {
-      
+      e.target.reset();
     }
   };
 
