@@ -1,37 +1,22 @@
 import React from "react";
 import "./portfolio.css";
 import ecommerce from "../../assets/ecommerce.png";
-import IMG from "../../assets/portfolio.jpg";
 import { Link } from "react-router-dom";
 
 const data = [
   {
     id: 1,
-    title: "A Fullstack Ecommerce App",
+    title: "Fullstack Ecommerce App",
     img: ecommerce,
-    linkDemo: "https://www.github.com/melvintivane",
-    linkGithub: "https://www.github.com/melvintivane",
+    linkGithub: "https://www.github.com/melvintivane/fullstack-ecommerce-app",
+    linkDemo: "https://kruppstore.netlify.app",
   },
   {
     id: 2,
-    title: "A Fullstack Ecommerce App",
-    img: ecommerce,
-    linkDemo: "https://www.github.com/melvintivane",
-    linkGithub: "https://www.github.com/melvintivane",
-  },
-  {
-    id: 3,
-    title: "A Fullstack Ecommerce App",
-    img: ecommerce,
-    linkDemo: "https://www.github.com/melvintivane",
-    linkGithub: "https://www.github.com/melvintivane",
-  },
-  {
-    id: 4,
     title: "Título 1",
     img: ecommerce,
-    linkDemo: "https://www.github.com/melvintivane",
     linkGithub: "https://www.github.com/melvintivane",
+    linkDemo: "https://kruppstore.netlify.app",
   },
 ];
 
@@ -52,7 +37,7 @@ const Portfolio = () => {
             </Link>
             <div className="portfolio__item-cta">
               <a
-                href="https://github.com/melvintivane"
+                href={item.linkGithub}
                 className="button"
                 target="_blank"
                 rel="noreferrer"
@@ -60,7 +45,7 @@ const Portfolio = () => {
                 GitHub
               </a>
               <a
-                href="https://dribbble.com/Alien_pixels"
+                href={item.linkDemo}
                 className="button button-primary"
                 target="_blank"
                 rel="noreferrer"
