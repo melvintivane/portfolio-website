@@ -1,6 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 import ecommerce from "../../assets/ecommerce.png";
+import aifacedetection from "../../assets/aifacedetection.jpg";
 import { Link } from "react-router-dom";
 
 const data = [
@@ -13,10 +14,10 @@ const data = [
   },
   {
     id: 2,
-    title: "Título 1",
-    img: ecommerce,
-    linkGithub: "https://www.github.com/melvintivane",
-    linkDemo: "https://kruppstore.netlify.app",
+    title: "Ai Face Detection App",
+    img: aifacedetection,
+    linkGithub: "https://www.github.com/melvintivane/ai-face-detection-app",
+    linkDemo: "https://aifacedetection.netlify.app",
   },
 ];
 
